@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Task 1</string>
+    <string name="name">Имя</string>
+    <string name="surname">Фамилия</string>
+    <string name="date">Дата Рождения</string>
+    <string name="send">Отправить</string>
+    <string name="info_text">Введите данные</string>
+    <string name="age">Возраст</string>
+    <string name="age_error">Некорректный возраст</string>
+</resources>

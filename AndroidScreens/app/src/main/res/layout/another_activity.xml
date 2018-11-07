@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/surname"
+        android:layout_marginBottom="@dimen/another_activity_bottom"
+        android:layout_marginStart="@dimen/right_margin"
+        android:text="@string/name"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/surname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:layout_marginStart="@dimen/right_margin"
+        android:text="@string/surname"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/age"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/surname"
+        android:layout_marginStart="@dimen/right_margin"
+        android:layout_marginTop="@dimen/another_activity_bottom"
+        android:text="@string/age"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/shownName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/shownSurname"
+        android:layout_alignBaseline="@+id/name"
+        android:layout_alignBottom="@+id/name"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/right_margin"
+        android:maxHeight="@dimen/max_height"
+        android:maxWidth="@dimen/max_width"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/shownSurname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="@dimen/right_margin"
+        android:maxHeight="@dimen/max_height"
+        android:maxWidth="@dimen/max_width"
+        android:textColor="@android:color/black" />
+
+    <TextView
+        android:id="@+id/shownAge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/age"
+        android:layout_alignBottom="@+id/age"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="@dimen/right_margin"
+        android:maxHeight="@dimen/max_height"
+        android:maxWidth="@dimen/max_width"
+        android:textColor="@android:color/black" />
+
+
+</RelativeLayout>
