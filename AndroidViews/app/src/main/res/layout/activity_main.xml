@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:id="@+id/linear_layout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <RadioGroup
+            android:id="@+id/sorting_fields"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/sort_by_age"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/age" />
+
+            <RadioButton
+                android:id="@+id/sort_by_gender"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/gender" />
+        </RadioGroup>
+
+        <RadioGroup
+            android:id="@+id/sorting_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/ascending_sort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/ascending" />
+
+            <RadioButton
+                android:id="@+id/descending_sort"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/descending" />
+        </RadioGroup>
+
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/user_list"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/linear_layout">
+
+    </android.support.v7.widget.RecyclerView>
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/fab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginBottom="@dimen/fab_margin"
+        android:layout_marginLeft="@dimen/fab_margin"
+        android:layout_marginRight="@dimen/fab_margin"
+        app:fabSize="normal"
+        app:srcCompat="@drawable/add" />
+
+</RelativeLayout>

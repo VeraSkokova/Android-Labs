@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">University-android-task2</string>
+    <string name="age">Age</string>
+    <string name="gender">Gender</string>
+    <string name="ascending">Ascending</string>
+    <string name="descending">Descending</string>
+</resources>

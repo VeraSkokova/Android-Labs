@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Task3</string>
+    <string name="dragon">Hey you! I\'m a Dragon!</string>
+
+    <string name="simple">Task activity</string>
+
+</resources>
